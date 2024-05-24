@@ -1,10 +1,14 @@
-Predicting premier league game outcomes
+# Predicting premier league game outcomes
+
+My goal of this project is to most accurately predict any one Premier League game's outcomes in a season. I am personally a big fan of the English Premier League and will find modeling Premier League data very interesting. Although the results of the models I will complete will not lead to any 'ground breaking' research, the project as a whole will still serve as a terrific experience for myself to practice applying supervised machine learning models to different types of data. Upon completion of this project, I hope to have gained a better understanding of the entire end to end data science project process as well as to master using the three supervised learning models.
+
+Since I will be attempting to predict the outcome of the game (either a W, D, or L) my task is a classification problem. I will attempt to apply three supervised learning models: multiple linear regression, decision tree classifier, and Adaboost classification models.
 
 Dataset from Kaggle and can be found here: https://www.kaggle.com/code/iliaskydyraliev/premier-league-2022-2023-winner-prediction/notebook
 
 The data is from 2017 -> 2022 and contains the following predictors:
 
-Main stats
+## Main stats
 
 xG - expected goals
 
@@ -16,7 +20,7 @@ GF - goals scored
 
 GA - goals allowed
 
-Shooting stats
+## Shooting stats
 
 "Sh" - total number of shots
 
@@ -29,31 +33,3 @@ Shooting stats
 "PK" - penalty kicks made
 
 "PKatt" - penalty kicks attempted
-
-Passing stats
-
-"KP" - passes that directly lead to a shot
-
-"1/3" - completed passes that enter the final third of the pitch on offense
-
-"PPA" - completed passes into the 18-yard box not including set pieces
-
-"CrsPA" - completed crosse into the 18-yard box
-
-"Prog" - progressive passes, completed passes that move the ball towards the opponent's goal at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area.
-
-Possession stats
-
-"Att 3rd" - touches in attacking third of the pitch
-
-"Att Pen" - touches in attacking penalty area
-
-"Prog" - progressive passes recieved, completed passes that move the ball towards the opponent's goal at least 10 yards from its furthest point in the last six passes, or any completed pass into the penalty area.
-
-Goal and Shot Creation stats
-
-"SCA" - shot-creating actions, the two offensive actions directly leading to a shot such as passes, dribbles and drawing fouls.
-
-Pass type stats
-
-"TB" - completed pass sent between back defenders into open space.
